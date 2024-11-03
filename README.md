@@ -1,5 +1,7 @@
 # Nekolist
 
+![logoBasic](https://github.com/user-attachments/assets/a40a5ccc-e312-401a-aeef-bd52a3de24a0)
+
 Nekolist é um aplicativo de lista de compras básico feito com fins de aprendizagem desenvolvido com React Native e Expo, em que é possível adicionar, remover itens e marcar como concluído.
 
 ## Índice
@@ -44,4 +46,7 @@ Para rodar o projeto na sua máquina, basta executar no terminal o seguinte coma
  npm run android | npm run ios | npm run web
 
 ## Visualização e licença
+
+![2024-11-0310-59-34-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/7a44b69f-4ddc-46d3-8545-76e3f6e27ebd)
+
 
