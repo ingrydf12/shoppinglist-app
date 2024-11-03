@@ -1,50 +1,47 @@
-# Welcome to your Expo app 👋
+# Nekolist
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Nekolist é um aplicativo de lista de compras básico feito com fins de aprendizagem desenvolvido com React Native e Expo, em que é possível adicionar, remover itens e marcar como concluído.
 
-## Get started
+## Índice
 
-1. Install dependencies
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Rodando o projeto](#rodando-o-projeto)
+- [Visualização e licença](#visualização-e-licença)
+
+## Pré-requisitos
+
+Antes de começar, você precisa ter instalado em sua máquina:
+
+- [Node.js](https://nodejs.org/) (última versão ou v22.11.0)
+- [Expo CLI](https://docs.expo.dev/get-started/installation/) (instale com `npm install -g expo-cli`)
+
+
+## Instalação
+
+1. Clone o repositório:
 
    ```bash
-   npm install
-   ```
+   git clone https://github.com/seu-usuario/nekolist.git
+   cd nekolist
 
-2. Start the app
+2. Instale as dependências do projeto:
 
-   ```bash
-    npx expo start
-   ```
+    ```bash
+    npm install
+    # ou
+    yarn install
 
-In the output, you'll find options to open the app in a
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Rodando o projeto
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+Para rodar o projeto na sua máquina, basta executar no terminal o seguinte comando:
+    
 ```bash
-npm run reset-project
+    npm run start
 ```
+> Opções:
+ npm run android | npm run ios | npm run web
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Visualização e licença
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
